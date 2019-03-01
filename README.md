@@ -1,31 +1,25 @@
-# Hello_World_Deep_Learning
+# Hello_World_Deep_Learning in Medical Imaging
 
-Author: Paras Lakhani, paras.lakhani@jefferson.edu
+Original Author: Paras Lakhani, paras.lakhani@jefferson.edu
 
-More details and a step-by-step guide for the tutorial can be found in the Journal of Digital Imaging Publication (ref:   ), which is the official journal of the Society of Imaging Informatics in Medicine (SIIM).
+**This repository has been forked and modified from the original.**
+
+Contributors to this repository:
+- Walter Wiggins (Contact: wwiggins@bwh.harvard.edu)
+- Travis Caton
+- Kirti Magudia
+- Andreas Rauschecker
+- James Condon
+
+This work is adapted from Lakhani et al. "Hello World Deep Learning in Medical Imaging." Journal of Digital Imaging. 2018 Jun;31(3):283-289 \((link to article)[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5959832/]\).
+
+The code and the directory structure have been modified to match the format from the article. Additional modifications have been made with the intent to increase readability and facilitate understanding for participants at all levels of coding skill and experience.
 
 This is a high-level introduction into practical machine learning for purposes of medical image classification. 
 
-In this tutorial, we use the Tensorflow framework as it is currently the most actively used and the Keras library, which a high-level application programming interface that simplifies working with Tensorflow.
+In this tutorial, the Tensorflow backend is used with the Keras framework, which is a high-level application programming interface (API) that simplifies working with Tensorflow.
 
-We hope that this tutorial will spark interest and provide a basic starting point for those interested in machine learning in regard to medical imaging. 
+If you would like to run the code in an established environment please proceed to Walter's (Kaggle kernel)[https://www.kaggle.com/wfwiggins203/hello-world-for-deep-learning-siim/] and follow the instructions there.
 
-A Jupyter ipython notebook is provided called "HelloWorldDeepLearning.ipynb"
+As with the original authors, we hope this tutorial fosters interest in machine learning for medical imaging. In addition, we hope our modifications lower the barriers to entry for those of all experience levels.
 
-We provide 75 images, 38 are chest X-rays, and 37 are abdominal X-rays. These de-identified PNGs obtained from openI, https://openi.nlm.nih.gov/, a searchable online repository of medical images from published PubMed Central articles
-
-The goal of this tutorial is to build a deep learning classifier to accurately differentiate between the two.
-
-You'll need a computer with the following installed:
-
-1) Tensorflow (https://www.tensorflow.org)
-2) Keras library (https://keras.io)
-3) Jupyter (http://jupyter.org)
-4) Download the x-rays provided in .zip file 
-
-To make things easier, there is a convenient SIIM docker that has Tensorflow / Keras / Jupyterlab already installed, located here: https://github.com/ImagingInformatics/machine-learning/tree/master/docker-keras-tensorflow-python3-jupyter
-
-After your environment is set up, open the ipython notebook, and run the code!
-
-
- 
